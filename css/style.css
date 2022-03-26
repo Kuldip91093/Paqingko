@@ -74,34 +74,22 @@ img{
     flex-direction: row-reverse;
 }
 .custom_col_sidebar {
-    -ms-flex: 0 0 245px;
-    flex: 0 0 245px;
-    max-width: 245px;
-    padding: 100px 26px;
+    -ms-flex: 0 0 297px;
+    flex: 0 0 297px;
+    max-width: 297px;
+    padding: 0 26px;
 }
 .custom_col_content {
-    -ms-flex: 0 0 calc(100% - 245px);
-    flex: 0 0 calc(100% - 245px);
-    max-width: calc(100% - 245px);
-    padding: 100px 26px;
+    -ms-flex: 0 0 calc(100% - 297px);
+    flex: 0 0 calc(100% - 297px);
+    max-width: calc(100% - 297px);
+    padding: 0 26px;
 }
-.custom_col_8 {
-    -ms-flex: 0 0 66.67%;
-    flex: 0 0 66.67%;
-    max-width: 66.67%;
-    padding: 0 20px;
-}
-.custom_col_12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-    padding: 0 20px;
-}
-.custom_col_5part {
-    -ms-flex: 0 0 20%;
-    flex: 0 0 20%;
-    max-width: 20%;
-    padding: 0 20px;
+.custom_col_3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 0 26px;
 }
 /*commmon grid css end*/
 
