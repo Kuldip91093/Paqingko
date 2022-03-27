@@ -105,6 +105,33 @@ img{
 }
 /*commmon grid css end*/
 
+/* custom header css end */
+.custom_header_darkblue{
+    width: 100%;
+    background-color: #044294;
+    margin-bottom: 32px;
+    padding: 13px 20px;
+}
+.custom_header_darkblue h3{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.custom_header_lightblue{
+    width: 100%;
+    background-color: #E5F0FF;
+    margin-bottom: 32px;
+    padding: 13px 20px;
+}
+.custom_header_lightblue h3{
+    color: #044294;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+/* custom header css end */
+
 /*page pre-loader css start*/
 .loader-wrapper {
     position: fixed;
@@ -711,6 +738,410 @@ img{
 }
 /*stand information section css end*/
 
+/*page layout section css start*/
+section.page_layout {
+    padding: 46px 0;
+}
+/*page layout section css end*/
+
+/* custom para css start */
+.custom_para p{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+/* custom para css end */
+
+/* custom button css end */
+.custom_bttn_group{
+    display: flex;
+    margin: 0 -10px;
+}
+.custom_bttn_group li{
+    display: block;
+    flex: 1 0 0;
+    padding: 0 10px;
+}
+.custom_bttn_darkblue{
+    display: block;
+    border-radius: 9px;
+    background-color: #044294;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 18px 10px;
+    text-align: center;
+}
+.custom_bttn_mediumblue{
+    display: block;
+    border-radius: 9px;
+    background-color: #A8CDFD;
+    color: #044294;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 18px 10px;
+    text-align: center;
+}
+.custom_bttn_lightblue{
+    display: block;
+    border-radius: 9px;
+    background-color: #E5F0FF;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 18px 10px;
+    text-align: center;
+}
+/* custom button css end */
+
+/* custom form filled css start */
+.custom_form_group{
+    display: flex;
+    flex-wrap: wrap;
+}
+.custom_form_text_filled{
+    position: relative;
+}
+.custom_form_text_filled input,
+.custom_form_text_filled textarea{
+    width: 100%;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 18px;
+    line-height: 1;
+    padding: 18px 36px;
+}
+.custom_form_text_filled textarea{
+    line-height: 1.3;
+}
+.custom_form_text_filled input,
+.custom_form_text_filled textarea{
+    width: 100%;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 18px;
+    line-height: 1;
+    padding: 18px 36px;
+}
+.custom_form_text_filled input::placeholder,
+.custom_form_text_filled textarea::placeholder{
+    color: #9B9B9B;
+}
+.custom_form_search_filled{
+    position: relative;
+}
+.custom_form_search_filled:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 18px;
+    bottom: 0;
+    margin: auto;
+    width: 36px;
+    height: 36px;
+    background-image: url('../images/icon-search.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+.custom_form_search_filled input{
+    width: 100%;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 18px;
+    line-height: 1;
+    padding: 17px 78px 16px 36px;
+}
+.custom_form_search_filled input::-webkit-search-decoration,
+.custom_form_search_filled input::-webkit-search-cancel-button,
+.custom_form_search_filled input::-webkit-search-results-button,
+.custom_form_search_filled input::-webkit-search-results-decoration{
+    appearance: none;
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    -ms-progress-appearance: none;
+}
+.custom_form_search_filled input::placeholder{
+    color: #9B9B9B;
+}
+.custom_form_select_filled{
+    position: relative;
+}
+.custom_form_select_filled:after{
+    content: '\f078';
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 15px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+    height: 18px;
+    color: #000000;
+}
+.custom_form_select_filled select{
+    width: 100%;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 18px;
+    line-height: 1;
+    padding: 18px 36px;
+    text-align: center;
+
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-progress-appearance: none;
+}
+.custom_form_select_filled select option:disabled{
+    color: #9B9B9B;
+}
+/* custom form filled css end */
+
+/* custom accordian css start */
+.jquery_ui_accordian .ui-accordion-header{
+    position: relative;
+}
+.jquery_ui_accordian .ui-accordion-header:after{
+    content: '\f078';
+    font-family: 'Font Awesome 5 Free';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 15px;
+    margin: auto;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+    height: 18px;
+    transition: all 0.3s;
+}
+.jquery_ui_accordian .ui-accordion-header.ui-state-active:after{
+    transform: rotatex(180deg);
+}
+/* custom accordian css end */
+
+/* responsive tab css start */
+.responsive_accordian_tab .res_tab_content{
+    padding: 70px 0;
+}
+/* responsive tab css end */
+
+/* visit page css start */
+.sidebar_img{
+    margin-top: 86px;
+}
+.sidebar_img img {
+    width: 100%;
+}
+.jquery_ui_accordian.visit_sidebar_accordian .ui-accordion-header:after{
+    color: #044294;
+}
+.visit_sidebar_accordian .custom_bttn_lightblue{
+    border-radius: 0;
+    margin-top: 10px;
+    border: none;
+    padding: 18px 10px;
+    font-size: 18px;
+}
+.visit_sidebar_accordian .visit_sidebar_content{
+    padding: 10px 0;
+    border: none;
+}
+.visit_sidebar_content li{
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2;
+}
+.visit_info_tabs .custom_bttn_group{
+    margin: 0 -10px;
+}
+.visit_info_tabs .custom_bttn_lightblue{
+    color: #FFFFFF;
+}
+.visit_info_tabs .r-tabs-state-active .custom_bttn_lightblue{
+    background-color: #A8CDFD;
+    color: #000000;
+}
+.visit_info_tabs h2{
+    color: #044294;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.visit_info_tabs h2 span{
+    border-radius: 5px;
+    background-color: #FF0006;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family:"din-2014";
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 4px 15px;
+    margin-right: 14px;
+}
+.visit_info_tabs table{
+    width: 100%;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+    border-collapse: collapse;
+}
+.visit_info_tabs table th,
+.visit_info_tabs table td{
+    border: 1px solid #333333;
+    padding: 8px 20px;
+}
+.visit_info_tabs table.table_one thead th,
+.visit_info_tabs table.table_one thead td{
+    background-color: #044294;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.visit_info_tabs table.table_one .thead_topbar{
+    background-color: #A8CDFD;
+    color: #044294;
+    font-size: 27px;
+}
+.visit_info_tabs table.table_one tbody th:last-child,
+.visit_info_tabs table.table_one tbody td:last-child{
+    text-align: center;
+}
+.visit_info_tabs table.table_one .star5{
+    background-color: #FFDDDD;
+    color: #FF0006;
+}
+.visit_info_tabs table.table_one .star4{
+    color: #FF0006;
+}
+.visit_info_tabs table.table_two{
+    margin-top: 54px;
+}
+.visit_info_tabs table.table_two thead th,
+.visit_info_tabs table.table_two thead td{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 23px;
+}
+.visit_info_tabs table.table_two tbody th,
+.visit_info_tabs table.table_two tbody td{
+    text-align: center;
+    width: 50%;
+}
+.visit_by_area{
+    padding-bottom: 70px;
+}
+.visit_by_hallname .custom_form_group{
+    justify-content: space-between;
+}
+.visit_by_hallname .custom_form_select_filled{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.visit_by_hallname .custom_form_search_filled{
+    flex: 0 0 calc(75% - 20px);
+    max-width: calc(75% - 20px);
+}
+/* visit page css end */
+
+/* kouyaka page css start */
+.kouyaka_mini_article ul li{
+    padding: 18px 0;
+    border-bottom: 1px solid #A7A6A6;
+}
+.kouyaka_mini_article ul li span{
+    display: block;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+.kouyaka_mini_article ul li p{
+    display: block;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    line-height: 1.2;
+}
+.kouyaka_mini_article ul li a{
+    display: block;
+    color: #A7A6A6;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    transition: all 0.3s;
+}
+.kouyaka_mini_article ul li a:hover,
+.kouyaka_mini_article ul li a:focus{
+    color: #044294;
+}
+.event_pledge_head{
+    padding-bottom: 15px;
+    margin-bottom: 33px;
+    border-bottom: 1px solid #333333;
+}
+.event_pledge_head h2{
+    color: #000000;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.event_pledge_head h2 span{
+    font-size: 16px;
+    margin-right: 30px;
+}
+.event_pledge_list{
+    border: 1px solid #003889;
+    margin-bottom: 35px;
+    padding-bottom: 12px;
+}
+.event_pledge_list .custom_header_darkblue{
+    text-align: center;
+}
+.event_pledge_list ol{
+    padding: 0 34px;
+}
+.event_pledge_list ol li{
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    border-bottom: 1px solid #E0EEFF;
+    padding: 18px 15px;
+}
+.event_pledge_list ol li:last-child{
+    border: none;
+}
+.event_pledge_dtl{
+    margin-bottom: 80px;
+}
+.event_pledge_dtl .custom_header_lightblue{
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+/* kouyaka page css end */
+
 @media(max-width: 1280px) {
     .custom_container {
         max-width: 1166px;
@@ -773,6 +1204,9 @@ img{
     .advertising_images_section {
         padding: 46px 0 90px;
     }
+    .sidebar_img{
+        margin-top: 30px;
+    }
 }
 @media(max-width: 900px) {
     .site_header a.logo_img img {
@@ -828,6 +1262,55 @@ img{
         position: relative;
         margin-top: 10px;
         display: block;
+    }
+    section.page_layout{
+        padding: 15px 0;
+    }
+    .responsive_accordian_tab .res_tab_content{
+        padding: 30px 0;
+    }
+    .custom_header_darkblue,
+    .custom_header_lightblue{
+        margin-bottom: 15px;
+    }
+    .custom_header_darkblue h3,
+    .custom_header_lightblue h3{
+        font-size: 18px;
+    }
+    .custom_form_select_filled select{
+        font-size: 16px;
+        padding: 14px 20px;
+    }
+    .custom_form_search_filled input{
+        font-size: 16px;
+        padding: 12px 50px 12px 20px;
+    }
+    .visit_by_area{
+        padding-bottom: 30px;
+    }
+    .visit_info_tabs h2{
+        font-size: 28px;
+    }
+    .visit_info_tabs table.table_one thead th, .visit_info_tabs table.table_one thead td{
+        font-size: 18px;
+    }
+    .visit_info_tabs table.table_one .thead_topbar{
+        font-size: 20px;
+    }
+    .visit_info_tabs table.table_two{
+        margin-top: 30px;
+    }
+    .visit_info_tabs table.table_two thead th, .visit_info_tabs table.table_two thead td{
+        font-size: 18px;
+    }
+    .custom_form_select_filled:after{
+        font-size: 20px;
+        line-height: 1;
+        height: 20px;
+    }
+    .custom_form_search_filled:after{
+        width: 20px;
+        height: 20px;
     }
 }
 @media(max-width: 675px) {
@@ -885,5 +1368,78 @@ img{
     }
     .information_box span {
         margin-bottom: 10px;
+    }
+    .custom_para p{
+        margin-bottom: 12px;
+    }
+    .custom_bttn_group {
+        display: flex;
+        margin: 0 -10px;
+        flex-wrap: wrap;
+    }
+    .custom_bttn_group li {
+        display: block;
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 10px 10px;
+    }
+    .custom_bttn_darkblue,
+    .custom_bttn_mediumblue,
+    .custom_bttn_lightblue{
+        font-size: 16px;
+        padding: 12px 8px;
+    }
+    .visit_information{
+        margin-bottom: 30px;
+    }
+    .visit_info_tabs .r-tabs-accordion-title .r-tabs-anchor{
+        display: block;
+        border-radius: 9px;
+        background-color: #E5F0FF;
+        color: #000000;
+        font-weight: bold;
+        line-height: 1;
+        font-size: 16px;
+        padding: 12px 8px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .visit_info_tabs h2{
+        font-size: 22px;
+    }
+    .visit_info_tabs table th, .visit_info_tabs table td{
+        padding: 6px 10px;
+    }
+    .visit_info_tabs table.table_two tbody th, .visit_info_tabs table.table_two tbody td{
+        width: auto;
+        min-height: 80px;
+    }
+    .visit_by_area{
+        padding-bottom: 30px;
+    }
+    .visit_by_hallname .custom_form_select_filled {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .visit_by_hallname .custom_form_search_filled {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .event_pledge_head{
+        padding-bottom: 8px;
+    }
+    .event_pledge_head h2{
+        font-size: 20px;
+        display: block;
+    }
+    .event_pledge_head h2 span{
+        margin-right: 10px;
+    }
+    .event_pledge_list ol{
+        padding: 0 15px;
+    }
+    .event_pledge_dtl{
+        margin-bottom: 30px;
     }
 }
