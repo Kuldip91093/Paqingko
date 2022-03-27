@@ -645,6 +645,10 @@ img{
     font-weight: 700;
     transition: all 0.4s;
 }
+.past_articles_content a.past_articles_btn:hover {
+    background-color: #044294;
+    color: #fff;
+}
 /*past articles section css end*/
 
 /*twitter image section css start*/
@@ -789,7 +793,6 @@ img{
     }
     .custom_col_sidebar {
         padding-top: 40px;
-        margin-bottom: 30px;
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 580px;
@@ -875,5 +878,12 @@ img{
     }
     .past_articles_section .past_articles_text {
         padding-top: 30px;
+    }
+    .information_box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .information_box span {
+        margin-bottom: 10px;
     }
 }
