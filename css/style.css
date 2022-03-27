@@ -784,7 +784,7 @@ img{
     .site_footer ul li {
         margin: 0 18px;
     }
-    .advertising_images_section .custom_container > .custom_row {
+    .custom_row.custom_row_reverse {
         justify-content: center;
     }
     .custom_col_sidebar {
