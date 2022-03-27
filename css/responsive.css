@@ -15,7 +15,29 @@ section.page_layout {
     font-weight: 700;
     line-height: 1.2;
 }
+.custom_header_lightblue{
+    width: 100%;
+    background-color: #E5F0FF;
+    margin-bottom: 32px;
+    padding: 13px 20px;
+}
+.custom_header_lightblue h3{
+    color: #044294;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+}
 /* custom header css end */
+
+/* custom para css start */
+.custom_para p{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+/* custom para css end */
 
 /* custom button css end */
 .custom_bttn_group{
@@ -122,6 +144,15 @@ section.page_layout {
     font-size: 18px;
     line-height: 1;
     padding: 17px 78px 16px 36px;
+}
+.custom_form_search_filled input::-webkit-search-decoration,
+.custom_form_search_filled input::-webkit-search-cancel-button,
+.custom_form_search_filled input::-webkit-search-results-button,
+.custom_form_search_filled input::-webkit-search-results-decoration{
+    appearance: none;
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    -ms-progress-appearance: none;
 }
 .custom_form_search_filled input::placeholder{
     color: #9B9B9B;
@@ -307,3 +338,82 @@ section.page_layout {
     max-width: calc(75% - 20px);
 }
 /* visit page css end */
+
+/* kouyaka page css start */
+.kouyaka_mini_article ul li{
+    padding: 18px 0;
+    border-bottom: 1px solid #A7A6A6;
+}
+.kouyaka_mini_article ul li span{
+    display: block;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+.kouyaka_mini_article ul li p{
+    display: block;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    line-height: 1.2;
+}
+.kouyaka_mini_article ul li a{
+    display: block;
+    color: #A7A6A6;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    transition: all 0.3s;
+}
+.kouyaka_mini_article ul li a:hover,
+.kouyaka_mini_article ul li a:focus{
+    color: #044294;
+}
+.event_pledge_head{
+    padding-bottom: 15px;
+    margin-bottom: 33px;
+    border-bottom: 1px solid #333333;
+}
+.event_pledge_head h2{
+    color: #000000;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.event_pledge_head h2 span{
+    font-size: 16px;
+    margin-right: 30px;
+}
+.event_pledge_list{
+    border: 1px solid #003889;
+    margin-bottom: 35px;
+    padding-bottom: 12px;
+}
+.event_pledge_list .custom_header_darkblue{
+    text-align: center;
+}
+.event_pledge_list ol{
+    padding: 0 34px;
+}
+.event_pledge_list ol li{
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    border-bottom: 1px solid #E0EEFF;
+    padding: 18px 15px;
+}
+.event_pledge_list ol li:last-child{
+    border: none;
+}
+.event_pledge_dtl{
+    margin-bottom: 80px;
+}
+.event_pledge_dtl .custom_header_lightblue{
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+/* kouyaka page css end */
