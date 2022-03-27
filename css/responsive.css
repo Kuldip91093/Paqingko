@@ -122,7 +122,7 @@ section.page_layout {
 .custom_form_search_filled{
     position: relative;
 }
-.custom_form_search_filled:before{
+.custom_form_search_filled:after{
     content: '';
     position: absolute;
     top: 0;
@@ -417,3 +417,151 @@ section.page_layout {
     margin-bottom: 25px;
 }
 /* kouyaka page css end */
+
+
+@media (max-width: 1166px) {
+    .sidebar_img{
+        margin-top: 30px;
+    }
+}
+@media (max-width: 900px) {
+    section.page_layout{
+        padding: 15px 0;
+    }
+    .responsive_accordian_tab .res_tab_content{
+        padding: 30px 0;
+    }
+
+    /* custom header css start */
+    .custom_header_darkblue,
+    .custom_header_lightblue{
+        margin-bottom: 15px;
+    }
+    .custom_header_darkblue h3,
+    .custom_header_lightblue h3{
+        font-size: 18px;
+    }
+    /* custom header css end */
+
+    /* custom form filled css start */
+    .custom_form_select_filled select{
+        font-size: 16px;
+        padding: 14px 20px;
+    }
+    .custom_form_search_filled input{
+        font-size: 16px;
+        padding: 12px 50px 12px 20px;
+    }
+    /* custom form filled css end */
+
+    /* visit page css start */
+    .visit_by_area{
+        padding-bottom: 30px;
+    }
+    .visit_info_tabs h2{
+        font-size: 28px;
+    }
+    .visit_info_tabs table.table_one thead th, .visit_info_tabs table.table_one thead td{
+        font-size: 18px;
+    }
+    .visit_info_tabs table.table_one .thead_topbar{
+        font-size: 20px;
+    }
+    .visit_info_tabs table.table_two{
+        margin-top: 30px;
+    }
+    .visit_info_tabs table.table_two thead th, .visit_info_tabs table.table_two thead td{
+        font-size: 18px;
+    }
+    .custom_form_select_filled:after{
+        font-size: 20px;
+        line-height: 1;
+        height: 20px;
+    }
+    .custom_form_search_filled:after{
+        width: 20px;
+        height: 20px;
+    }
+    /* visit page css end */
+
+    /* koyuka page css start */
+    /* koyuka page css end */
+}
+@media (max-width: 675px) {
+    /* custom para css start */
+    .custom_para p{
+        margin-bottom: 12px;
+    }
+    /* custom para css end */
+
+    /* custom bttn css start */
+    .custom_bttn_group{
+        margin: 0 -4px;
+    }
+    .custom_bttn_group li{
+        padding: 0 4px;
+    }
+    .custom_bttn_darkblue,
+    .custom_bttn_mediumblue,
+    .custom_bttn_lightblue{
+        font-size: 16px;
+        padding: 12px 8px;
+    }
+    /* custom bttn css end */
+
+    /* visit page css start */
+    .visit_info_tabs .r-tabs-accordion-title .r-tabs-anchor{
+        display: block;
+        border-radius: 9px;
+        background-color: #E5F0FF;
+        color: #000000;
+        font-weight: bold;
+        line-height: 1;
+        font-size: 16px;
+        padding: 12px 8px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .visit_info_tabs h2{
+        font-size: 22px;
+    }
+    .visit_info_tabs table th, .visit_info_tabs table td{
+        padding: 6px 10px;
+    }
+    .visit_info_tabs table.table_two tbody th, .visit_info_tabs table.table_two tbody td{
+        width: auto;
+        min-height: 80px;
+    }
+    .visit_by_area{
+        padding-bottom: 30px;
+    }
+    .visit_by_hallname .custom_form_select_filled {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .visit_by_hallname .custom_form_search_filled {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    /* visit page css end */
+
+    /* kouyaka page css start */
+    .event_pledge_head{
+        padding-bottom: 8px;
+    }
+    .event_pledge_head h2{
+        font-size: 20px;
+        display: block;
+    }
+    .event_pledge_head h2 span{
+        margin-right: 10px;
+    }
+    .event_pledge_list ol{
+        padding: 0 15px;
+    }
+    .event_pledge_dtl{
+        margin-bottom: 30px;
+    }
+    /* kouyaka page css end */
+}
