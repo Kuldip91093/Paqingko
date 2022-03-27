@@ -34,7 +34,7 @@ $(window).on('load',function() {
 });
 
 $(document).ready(function(){
-	
+
 	// navbar toggle js
 	$('.navbar_toggler').click(function(){
 		$('body').toggleClass('no_scroll');
@@ -57,4 +57,20 @@ $(document).ready(function(){
 			scrollTop: 0,
 		}, 800);
 	});
+
+	$('.responsive_accordian_tab').responsiveTabs({
+		startCollapsed: 'accordion',
+		active: 0,
+		animation: 'slide'
+	});
+
+	setTimeout(function(){
+		var triggerEl = $('.active_tab_on_load').prev('.r-tabs-accordion-title').find('.r-tabs-anchor')
+		triggerEl.trigger('click');
+		// console.log(triggerEl)
+	},100);
+
+});
+$( function() {
+    $( ".jquery_ui_accordian" ).accordion();
 });

@@ -1,5 +1,16 @@
 /*fonts css start*/
+/* Noto Sans JP */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
 
+/* din-2014 */
+@font-face {
+    font-family:"din-2014";
+    src:url("https://use.typekit.net/af/1fe1ce/00000000000000007735aff6/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/1fe1ce/00000000000000007735aff6/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/1fe1ce/00000000000000007735aff6/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+    font-display:auto;
+    font-style:normal;
+    font-weight:700;
+    font-stretch:normal;
+}
 /*fonts css end*/
 
 /*common css start*/
@@ -16,7 +27,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -font-smoothing: antialiased;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Meiryo';
 }
 body.no_scroll {
     overflow: hidden;
@@ -24,9 +35,9 @@ body.no_scroll {
 a, button, input[type=submit], select{
     cursor: pointer;
 }
-a, a:hover, a:focus, 
+a, a:hover, a:focus,
 button, button:hover, button:focus,
-input, input:hover, input:focus, 
+input, input:hover, input:focus,
 textarea, textarea:hover, textarea:focus,
 select, select:hover, select:focus{
     outline: 0;
@@ -166,7 +177,7 @@ img{
 }
 .io.rl {
     -webkit-transform: translate3d(80px, 0, 0);
-    transform: translate3d(80px, 0, 0); 
+    transform: translate3d(80px, 0, 0);
 }
 .io.upL {
     -webkit-transform: translate3d(0, 80px, 0);
