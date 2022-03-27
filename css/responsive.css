@@ -510,6 +510,9 @@ section.page_layout {
     /* custom bttn css end */
 
     /* visit page css start */
+    .visit_information{
+        margin-bottom: 30px;
+    }
     .visit_info_tabs .r-tabs-accordion-title .r-tabs-anchor{
         display: block;
         border-radius: 9px;
