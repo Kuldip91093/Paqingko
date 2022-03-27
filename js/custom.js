@@ -67,7 +67,6 @@ $(document).ready(function(){
 	setTimeout(function(){
 		var triggerEl = $('.active_tab_on_load').prev('.r-tabs-accordion-title').find('.r-tabs-anchor')
 		triggerEl.trigger('click');
-		// console.log(triggerEl)
 	},100);
 
 });

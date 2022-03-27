@@ -161,16 +161,17 @@ section.page_layout {
     position: relative;
 }
 .custom_form_select_filled:after{
-    content: '\f107';
-    font-family: 'FontAwesome';
+    content: '\f078';
+    font-family: "Font Awesome 5 Free";
     position: absolute;
     top: 0;
     bottom: 0;
     right: 15px;
     margin: auto;
-    font-size: 28px;
+    font-size: 18px;
+    font-weight: 600;
     line-height: 1;
-    height: 28px;
+    height: 18px;
     color: #000000;
 }
 .custom_form_select_filled select{
@@ -198,17 +199,18 @@ section.page_layout {
     position: relative;
 }
 .jquery_ui_accordian .ui-accordion-header:after{
-    content: '\f107';
-    font-family: 'FontAwesome';
+    content: '\f078';
+    font-family: 'Font Awesome 5 Free';
     position: absolute;
     top: 0;
     bottom: 0;
     right: 15px;
     margin: auto;
     color: #000000;
-    font-size: 28px;
+    font-size: 18px;
+    font-weight: 600;
     line-height: 1;
-    height: 28px;
+    height: 18px;
     transition: all 0.3s;
 }
 .jquery_ui_accordian .ui-accordion-header.ui-state-active:after{
@@ -232,9 +234,13 @@ section.page_layout {
 .visit_sidebar_accordian .custom_bttn_lightblue{
     border-radius: 0;
     margin-top: 10px;
+    border: none;
+    padding: 18px 10px;
+    font-size: 18px;
 }
-.visit_sidebar_content{
+.visit_sidebar_accordian .visit_sidebar_content{
     padding: 10px 0;
+    border: none;
 }
 .visit_sidebar_content li{
     color: #000000;
@@ -495,11 +501,16 @@ section.page_layout {
     /* custom para css end */
 
     /* custom bttn css start */
-    .custom_bttn_group{
-        margin: 0 -4px;
+    .custom_bttn_group {
+        display: flex;
+        margin: 0 -10px;
+        flex-wrap: wrap;
     }
-    .custom_bttn_group li{
-        padding: 0 4px;
+    .custom_bttn_group li {
+        display: block;
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 10px 10px;
     }
     .custom_bttn_darkblue,
     .custom_bttn_mediumblue,
