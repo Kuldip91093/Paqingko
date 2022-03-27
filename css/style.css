@@ -784,8 +784,17 @@ img{
     .site_footer ul li {
         margin: 0 18px;
     }
-    .custom_col_content,
+    .advertising_images_section .custom_container > .custom_row {
+        justify-content: center;
+    }
     .custom_col_sidebar {
+        padding-top: 40px;
+        margin-bottom: 30px;
+        -ms-flex: 0 0 250px;
+        flex: 0 0 580px;
+        max-width: 580px;
+    }
+    .custom_col_content {
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
