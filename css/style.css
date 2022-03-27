@@ -1,7 +1,7 @@
 /*fonts css start*/
 /* Noto Sans JP */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
-
+/*font-family: 'Noto Sans JP', sans-serif;*/
 /* din-2014 */
 @font-face {
     font-family:"din-2014";
@@ -11,6 +11,7 @@
     font-weight:700;
     font-stretch:normal;
 }
+/*font-family:"din-2014";*/
 /*fonts css end*/
 
 /*common css start*/
@@ -307,6 +308,7 @@ img{
     background-color: #002776;
     padding: 20px 0 0;
     position: relative;
+    height: auto !important;
 }
 .site_header a.logo_img {
     padding: 0 15px;
@@ -432,6 +434,229 @@ img{
 }
 /*footer section css end*/
 
+/*advertising images section css start*/
+.advertising_images_section {
+    padding: 46px 0 140px;
+}
+.assuming_section .assuming_content {
+    position: relative;
+    padding: 9.5vw 15px;
+    overflow: hidden;
+}
+.assuming_section .assuming_content img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.assuming_section .assuming_content h3 {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 60px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.assuming_section button.slick-arrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: table;
+    z-index: 1;
+    height: 60px;
+    width: 60px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 35px;
+}
+.assuming_section button.slick-prev.slick-arrow {
+    left: 0;
+}
+.assuming_section button.slick-next.slick-arrow {
+    right: 0;
+}
+/*advertising images section css end*/
+
+/*information box section css start*/
+.information_box {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.information_box span {
+    border-radius: 5px;
+    display: block;
+    width: 66px;
+    height: 20px;
+    text-align: center;
+    background-color: #FF0006;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "din-2014";
+    margin-right: 5px;
+}
+/*information box section css end*/
+
+/*article image section css start*/
+.article_image_inner {
+    position: relative;
+    padding: 12.5vw 15px;
+    overflow: hidden;
+}
+.article_image_inner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.article_image_inner h3 {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 60px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.article_content ul li:not(:last-child) {
+    margin: 35px 0;
+}
+.article_content ul li h5,
+.article_content ul li p {
+    font-size: 16px;
+    font-weight: 400;
+}
+.article_content ul li h5 {
+    font-weight: 700;
+}
+/*article image section css end*/
+
+/*past articles section css start*/
+.past_articles_section .past_articles_box {
+    margin: 60px 0 8px;
+}
+.past_articles_content .past_articles_content_inner {
+    padding: 12px 0;
+    border-bottom: 1px solid #A2A2A2;
+}
+.past_articles_content .custom_row {
+    margin: 0 -9px;
+}
+.past_articles_section .custom_col_image {
+    flex: 0 0 183px;
+    max-width: 183px;
+    padding: 0 9px;
+}
+.past_articles_section .custom_col_text {
+    flex: 0 0 calc(100% - 183px);
+    max-width: calc(100% - 183px);
+    padding: 0 9px;
+}
+.past_articles_image {
+    margin: 0 0 0 10px;
+    position: relative;
+    padding-top: 94%;
+    overflow: hidden;
+    border: 1px solid #707070;
+}
+.past_articles_image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+.past_articles_section .past_articles_text {
+    position: relative;
+}
+.past_articles_section p.past_articles_date {
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.past_articles_section p.past_articles_date span {
+    display: block;
+    width: 76px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #044294;
+    color: #fff;
+    padding: 1px 5px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+.past_articles_section .past_articles_text ul li {
+    margin-top: 8px;
+}
+.past_articles_section .past_articles_text ul p {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.8px;
+}
+.past_articles_section .past_articles_text a {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 15px;
+    color: #707070;
+    font-weight: 400;
+}
+.past_articles_content a.past_articles_btn {
+    width: 100%;
+    max-width: 335px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    margin: 50px auto 100px;
+    border: 2px solid #002776;
+    border-radius: 30px;
+    color: #002776;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all 0.4s;
+}
+/*past articles section css end*/
+
+/*twitter image section css start*/
+.twitter_image_sec img,
+.line_image img {
+    width: 100%;
+}
+.twitter_image_sec {
+    margin: 35px 0 75px;
+}
+/*twitter image section css end*/
+
 @media(max-width: 1280px) {
     .custom_container {
         max-width: 1166px;
@@ -440,6 +665,21 @@ img{
 @media(max-width: 1166px) {
     .custom_container {
         max-width: 900px;
+        padding: 0 15px;
+    }
+    .custom_row {
+        margin: 0px -15px;
+    }
+    .custom_col_sidebar {
+        -ms-flex: 0 0 250px;
+        flex: 0 0 250px;
+        max-width: 250px;
+        padding: 0 15px;
+    }
+    .custom_col_content {
+        -ms-flex: 0 0 calc(100% - 250px);
+        flex: 0 0 calc(100% - 250px);
+        max-width: calc(100% - 250px);
         padding: 0 15px;
     }
     .site_header a.logo_img img {
@@ -459,6 +699,18 @@ img{
     }
     .site_footer ul li {
         margin: 0 18px;
+    }
+    .advertising_images_section .custom_container > .custom_row {
+        flex-direction: column-reverse;
+    }
+    .custom_col_content,
+    .custom_col_sidebar {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .custom_col_sidebar {
+        padding-top: 40px;
     }
 }
 @media(max-width: 675px) {
